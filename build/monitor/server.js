@@ -19,17 +19,10 @@ const cors = corsMiddleware({
     ]
 });
 
-
 server.pre(cors.preflight);
 server.use(cors.actual);
-
 server.use(restify.plugins.bodyParser());
 
-// ************************************************************************
-// DB
-// ************************************************************************
-
-// Generic getter & setter
 server.post("/mkkeys", (req, res, next) => {
     if (!req.body) {
         res.send(400, "not enough parameters");
@@ -61,15 +54,6 @@ server.get("/reset", (req, res, next) => {
     }
 })
 
-// server.get("/mkkeys", (req, res, next) => {
-//     mkkeys("english", "testtest", 1).then((stdout) => {
-//         res.send(200, stdout);
-//     }).catch((e) => {
-//         res.send(500, e);
-//     })
-// });
-
-
 const mkkeys = (language, password, amount) => {
     return new Promise((resolve, reject) => {
         const cmd = `/usr/src/app/scripts/mkkeys.sh ${language} ${password} ${amount}`;
@@ -90,12 +74,6 @@ const mkkeys = (language, password, amount) => {
     });
 
 }
-
-// serve React app
-server.get('/*', restify.plugins.serveStaticFiles(`${__dirname}/wizard`, {
-    maxAge: 1, // this is in millisecs
-    etag: false,
-}));
 
 server.listen(82, function () {
     console.log("%s listening at %s", server.name, server.url);

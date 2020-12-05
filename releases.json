@@ -20,5 +20,12 @@
     "uploadedTo": {
       "http://80.208.229.228:5001": "Mon, 30 Nov 2020 02:00:52 GMT"
     }
+  },
+  "0.0.16": {
+    "hash": "/ipfs/QmYHCeKSfExSEKZjofBeywerAKuRGht8ZNKwXqqV966axZ",
+    "type": "manifest",
+    "uploadedTo": {
+      "dappnode": "Sat, 05 Dec 2020 09:50:34 GMT"
+    }
   }
 }

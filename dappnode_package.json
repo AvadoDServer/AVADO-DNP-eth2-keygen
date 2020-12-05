@@ -1,15 +1,15 @@
 {
   "name": "eth2keygen.avado.dnp.dappnode.eth",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "title": "ETH2.0 Key Generator",
   "description": "eth2keygen.avadoption",
   "avatar": "/ipfs/Qmf7yFka8z2QLRrDyT1ESNRwP9a1tdufEEtBghXHFUEQEP",
   "type": "service",
   "autoupdate": true,
   "image": {
-    "path": "eth2keygen.avado.dnp.dappnode.eth_0.0.15.tar.xz",
-    "hash": "/ipfs/QmZfd3jYTJriYSDSN8DQpEwHNRc6uH5WpY978QTyeC2srs",
-    "size": 60337032,
+    "path": "eth2keygen.avado.dnp.dappnode.eth_0.0.16.tar.xz",
+    "hash": "/ipfs/QmNj27HbtWEgqF2fxo7pDvEMwE61oco1dRZ6iRiJWsnymb",
+    "size": 60306672,
     "restart": "always"
   },
   "author": "AVADO",
