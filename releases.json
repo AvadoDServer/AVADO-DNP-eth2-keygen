@@ -1,0 +1,24 @@
+{
+  "0.0.1": {
+    "hash": "/ipfs/QmRUpXzdr8zLGcMCoFLEsFW9pqsTFq8d4DaK9Fe6XahELQ",
+    "type": "manifest",
+    "uploadedTo": {
+      "dappnode": "Mon, 30 Nov 2020 01:24:18 GMT",
+      "http://80.208.229.228:5001": "Mon, 30 Nov 2020 01:27:10 GMT"
+    }
+  },
+  "0.0.14": {
+    "hash": "/ipfs/QmPD2qgygjPWeSU5CT9UCFULrhjvuo5P7oxpwNJZXUKSJC",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Mon, 30 Nov 2020 01:51:10 GMT"
+    }
+  },
+  "0.0.15": {
+    "hash": "/ipfs/Qmb3cbhj5o4oePoUr88s4bXtnkN76HQwoAdh9d9on3bbfQ",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Mon, 30 Nov 2020 02:00:52 GMT"
+    }
+  }
+}
