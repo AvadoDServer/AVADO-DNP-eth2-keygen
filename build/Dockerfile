@@ -18,7 +18,7 @@ RUN ls -l
 
 
 # build final image
-FROM frolvlad/alpine-glibc 
+FROM frolvlad/alpine-glibc:alpine-3.9
 
 WORKDIR /usr/src/app
 
