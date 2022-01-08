@@ -8,8 +8,8 @@
   "autoupdate": true,
   "image": {
     "path": "eth2keygen.avado.dnp.dappnode.eth_0.0.17.tar.xz",
-    "hash": "/ipfs/QmeMiNZqE6gjxNdKsP34ahLTFNZmAecQYrMthTWRGG71L5",
-    "size": 57196816,
+    "hash": "/ipfs/Qmdx7hUqtuiL6BJb853f6JEDmYPExy5eqeWQ1VkdPuKK8K",
+    "size": 57194476,
     "restart": "always"
   },
   "author": "AVADO",
@@ -24,5 +24,5 @@
       "external": true
     }
   },
-  "builddate": "2022-01-08T20:36:43.936Z"
+  "builddate": "2022-01-08T22:38:45.108Z"
 }
