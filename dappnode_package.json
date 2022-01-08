@@ -1,27 +1,28 @@
 {
   "name": "eth2keygen.avado.dnp.dappnode.eth",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "title": "ETH2.0 Key Generator",
   "description": "eth2keygen.avadoption",
   "avatar": "/ipfs/Qmf7yFka8z2QLRrDyT1ESNRwP9a1tdufEEtBghXHFUEQEP",
   "type": "service",
   "autoupdate": true,
   "image": {
-    "path": "eth2keygen.avado.dnp.dappnode.eth_0.0.16.tar.xz",
-    "hash": "/ipfs/QmNj27HbtWEgqF2fxo7pDvEMwE61oco1dRZ6iRiJWsnymb",
-    "size": 60306672,
+    "path": "eth2keygen.avado.dnp.dappnode.eth_0.0.17.tar.xz",
+    "hash": "/ipfs/Qmdx7hUqtuiL6BJb853f6JEDmYPExy5eqeWQ1VkdPuKK8K",
+    "size": 57194476,
     "restart": "always"
   },
   "author": "AVADO",
   "license": "(c)",
   "dependencies": {},
   "links": {
-    "OnboardingWizard": "http://my.eth2keygen.avado.dnp.dappnode.eth"
+    "OnboardingWizard": "http://eth2keygen.my.ava.do"
   },
   "ui": {
     "OnboardingWizard": {
-      "url": "http://my.eth2keygen.avado.dnp.dappnode.eth",
+      "url": "http://eth2keygen.my.ava.do",
       "external": true
     }
-  }
+  },
+  "builddate": "2022-01-08T22:38:45.108Z"
 }

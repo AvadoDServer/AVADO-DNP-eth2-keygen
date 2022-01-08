@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   eth2keygen.avado.dnp.dappnode.eth:
-    image: 'eth2keygen.avado.dnp.dappnode.eth:0.0.16'
+    image: 'eth2keygen.avado.dnp.dappnode.eth:0.0.17'
     build: ./build
     environment:
       - EXTRA_OPTS=
