@@ -3,7 +3,7 @@ const configs = {
         name: "dev",
         admin: true,
         api: {
-            HTTP: "http://my.eth2keygen.avado.dnp.dappnode.eth:82",
+            HTTP: "http://eth2keygen.my.ava.do:82",
         }
     },
 
@@ -11,7 +11,7 @@ const configs = {
         name: "prod",
         admin: true,
         api: {
-            HTTP: "http://my.eth2keygen.avado.dnp.dappnode.eth:82",
+            HTTP: "http://eth2keygen.my.ava.do:82",
         }
     }
 };

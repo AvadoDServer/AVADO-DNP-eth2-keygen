@@ -22,10 +22,17 @@
     }
   },
   "0.0.16": {
-    "hash": "/ipfs/QmYHCeKSfExSEKZjofBeywerAKuRGht8ZNKwXqqV966axZ",
+    "hash": "/ipfs/QmXxYLmDdUcFwBuYosBjeqMum86K9J1gFjsN3j2aqPkrxq",
     "type": "manifest",
     "uploadedTo": {
-      "dappnode": "Sat, 05 Dec 2020 09:50:34 GMT"
+      "http://80.208.229.228:5001": "Fri, 23 Jul 2021 13:21:52 GMT"
+    }
+  },
+  "0.0.17": {
+    "hash": "/ipfs/QmW9iDQ9xUMNYpQAJx5232Ao6bY9WZnR6KgXUNvSCMiqMS",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Sat, 08 Jan 2022 20:13:12 GMT"
     }
   }
 }

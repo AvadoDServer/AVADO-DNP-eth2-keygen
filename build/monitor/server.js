@@ -15,7 +15,7 @@ const cors = corsMiddleware({
     preflightMaxAge: 5, //Optional
     origins: [
         /^http:\/\/localhost(:[\d]+)?$/,
-        "http://*.dappnode.eth",
+        "http://*.my.ava.do",
     ]
 });
 
@@ -56,7 +56,7 @@ server.get("/reset", (req, res, next) => {
 
 const mkkeys = (language, password, amount) => {
     return new Promise((resolve, reject) => {
-        const cmd = `/usr/src/app/scripts/mkkeys.sh ${language} ${password} ${amount}`;
+        const cmd = `/usr/src/app/scripts/mkkeys.sh "${language}" "${password}" ${amount}`;
         console.log(`Running ${cmd}`);
         const child = exec(cmd, (error, stdout, stderr) => {
             if (error) {
